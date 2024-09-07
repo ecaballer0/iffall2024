@@ -1,0 +1,35 @@
+body {
+    margin-left: 300px ;
+    margin-right:300px ;
+    background-color: rgb(23, 23, 23);
+}
+
+h1 {font-family: "forma-djr-display", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size:70px;
+    text-align: left;
+    padding-top: 15px ; 
+    color: white;
+}
+h2 {
+    font-family: "forma-djr-display", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size:45px;
+    text-align: left;
+    padding-bottom: 30px;
+    line-height: 2px;
+    color: white;
+}
+p{
+    font-family: "forma-djr-text", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+    text-align: left;
+    line-height: 1.75;
+    margin-top: 30px;
+    margin-left: 50px;
+    color: white;
+}   
