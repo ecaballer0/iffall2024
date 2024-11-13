@@ -95,6 +95,7 @@ nav#main-nav ul li a.selected {
     margin: 15%;
     padding:0;
     margin-top: 0;
+    margin-bottom: 0;
     
 }
 .floated-image-two {
@@ -178,13 +179,29 @@ summary {
   .personal-life-paragraph {
     float:right;
   }
-  footer {
-    bottom: 0;
-    left: 0;
-    position: fixed;
-    text-align: center;
-    margin-top: 30em;
+  .footer {
+    text-align: left;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin-top: 1500px;
+    margin-bottom: 0;
     width: 100%;
-    background-color: rgb(222, 185, 185) ;
     color: white;
+    background-color: rgb(35, 31, 32);
   }
+  .footer h3 {
+    margin: 0% 5% 0% 5% ;
+  }
+  .footer-achievements {
+    text-align: left;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin-top: 80px;
+    margin-bottom: 0;
+    width: 100%;
+    color: white;
+    background-color: rgb(35, 31, 32);
+    }
+    .footer-achievements h3 {
+        margin: 0% 5% 0% 5% ;
+      }
