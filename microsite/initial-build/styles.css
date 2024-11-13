@@ -1,0 +1,190 @@
+body {
+    margin:0;
+    color: white;
+    color: rgb(35, 31, 32);
+}
+h1 {
+    font-family: "spectral", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 25px;
+}
+h2 {
+    font-family: "spectral", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-style: italic;
+    font-size: 35px;
+}
+h3 {
+    font-family: "spectral", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+}
+
+h4 {
+    font-family: "spectral", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 11px;
+}
+p {
+    font-family: "spectral", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5rem;
+}
+
+nav#main-nav ul li .elisabeth {
+    display: inline-block;
+    color:white;
+    padding: .2em 0em;
+    margin:0 30px;
+    text-decoration: none;
+    transition: all .5s;
+    font-family: "spectral", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 36px;
+}
+nav#main-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 3em 0em 3em 0em;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #282522;
+    
+}
+nav#main-nav ul li a {
+    display: inline-block;
+    color:white;
+    padding: .2em 2em;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: all .5s;
+    font-family: "spectral", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 25px;
+}
+
+nav#main-nav ul li a:hover {
+    color: #972f3e;
+}
+nav#main-nav ul li a.selected {
+    color: #972f3e;
+}
+.floated-image-one {
+    float: left;
+    width:40%;
+    padding-right: 3em;
+    padding-bottom: 0;
+    margin:0;
+}
+.personal-life {
+    margin: 15%;
+    margin-top: 8%;
+    padding:0;
+    margin-bottom:0;
+}
+.personal-life-paragraph {
+    margin: 15%;
+    padding:0;
+    margin-top: 0;
+    
+}
+.floated-image-two {
+    float: right;
+    width:40%;
+    padding-right: 3em;
+    padding-bottom: 0;
+    margin:0;
+}
+.the-five-stages {
+    margin: 15%;
+    margin-top: 8%;
+    padding:0;
+    margin-bottom:0;
+}
+.the-five-stages-paragraph-one {
+    margin: 15%;
+    padding:0;
+    float: left;
+    width: 30%;
+    margin-right:0;
+    margin-top: 0;
+    margin-bottom:0;
+}
+.the-five-stages-paragraph-two {
+    margin: 15%;
+    padding:0;
+    float:right;
+    width: 30%;
+    margin-left:0;
+    margin-top: 0;
+    
+
+}
+.achievements {
+    margin: 15%;
+    margin-top: 8%;
+    padding:0;
+    margin-bottom:0;
+}
+.unfloated{
+    padding-top:2rem;
+    width:80%;
+}
+details {
+    padding: 1em;
+}
+summary {
+    padding: 20px;
+    background-color: #eeeeee;
+    border: none;
+    cursor: pointer;
+    font-family: "spectral", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+  }
+  
+  details > p {
+    background-color: #eeeeee;
+    padding: 40px;
+    margin:0;
+    padding-top: 20px;
+    
+  }
+  .list {
+    padding-top: 4rem;
+    margin-left:15%;
+    margin-right:15%;
+  }
+  .floated-image-three {
+    float: right;
+    width:40%;
+    padding-left: 3em;
+    padding-bottom: 0;
+    margin:0; 
+  }
+  .personal-life {
+    float: left;
+  }
+  .personal-life-paragraph {
+    float:right;
+  }
+  footer {
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    text-align: center;
+    margin-top: 30em;
+    width: 100%;
+    background-color: rgb(222, 185, 185) ;
+    color: white;
+  }
