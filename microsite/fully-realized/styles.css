@@ -1,0 +1,687 @@
+body {
+    margin:0;
+    color: white;
+    color: rgb(35, 31, 32);
+}
+h1 {
+    font-family: "spectral", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 25px;
+}
+h2 {
+    font-family: "spectral", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-style: italic;
+    font-size: 35px;
+}
+h3 {
+    font-family: "spectral", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+}
+
+h4 {
+    font-family: "spectral", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 11px;
+}
+p {
+    font-family: "spectral", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5rem;
+    text-indent: 16px;
+    margin:0;
+    padding:0;
+}
+
+nav#main-nav ul li .elisabeth {
+    display: inline-block;
+    color:white;
+    padding: .2em 0em;
+    margin:0 30px;
+    text-decoration: none;
+    transition: all .5s;
+    font-family: "spectral", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 30px;
+}
+nav#main-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 3em 0em 3em 0em;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #282522;
+    
+}
+nav#main-nav ul li a {
+    display: inline-block;
+    color:white;
+    padding: .2em 2em;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: all .5s;
+    font-family: "spectral", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 30px;
+}
+
+nav#main-nav ul li a:hover {
+    color: #972f3e;
+}
+nav#main-nav ul li a.selected {
+    color: #972f3e;
+}
+.floated-image-one {
+    float: left;
+    width:30%;
+    padding-right: 3em;
+    padding-bottom: 0;
+    margin:0;
+}
+.personal-life {
+    margin: 15%;
+    margin-top: 8%;
+    padding:0;
+    margin-bottom:0;
+    float: right;
+}
+.personal-life-paragraph {
+    margin: 15%;
+    padding:0;
+    
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.floated-image-two {
+    float: right;
+    width:40%;
+    padding-right: 3em;
+}
+.the-five-stages {
+    margin: 15%;
+    margin-top: 8%;
+    padding:0;
+    margin-bottom:0;
+}
+.the-five-stages p {
+    padding-right: 35rem;
+}
+.the-five-stages-paragraph-one {
+    margin: 15%;
+    padding:0;
+    float: left;
+    width: 30%;
+    margin-right:0;
+    margin-top: 0;
+    margin-bottom:0;
+}
+.the-five-stages-paragraph-two {
+    margin: 15%;
+    padding:0;
+    float:right;
+    width: 30%;
+    margin-left:0;
+    margin-top: 0;
+}
+.achievements {
+    margin: 15%;
+    margin-top: 8%;
+    padding:0;
+    margin-bottom:0;
+}
+.unfloated{
+    padding-top:2rem;
+    width:75%;
+}
+details {
+    padding: 1em;
+}
+summary {
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #eeeeee;
+    border: none;
+    cursor: pointer;
+    font-family: "spectral", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+  }
+  
+details > p {
+    background-color: #eeeeee;
+    margin:0;
+    padding-top: 0px;
+    padding-bottom:0px;
+  }
+.list {
+    padding-top: 4rem;
+    margin-left:15%;
+    margin-right:15%;
+  }
+.floated-image-three {
+    float: right;
+    width:40%;
+    padding-left: 3em;
+    padding-bottom: 0;
+    margin:0; 
+  }
+
+.footer {
+    text-align: left;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin-top: 1500px;
+    margin-bottom: 0;
+    width: 100%;
+    color: white;
+    background-color: rgb(35, 31, 32);
+  }
+.footer a{ 
+    text-decoration: none;
+    color: white;
+    background-color: rgb(35, 31, 32);
+  }
+.footer h3 {
+    margin: 0% 5% 0% 5% ;
+  }
+.footer-achievements {
+    text-align: left;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin-top: 80px;
+    margin-bottom: 0;
+    width: 100%;
+    color: white;
+    background-color: rgb(35, 31, 32);
+    }
+.footer-achievements h3 {
+        margin: 0% 5% 0% 5% ;
+      }
+.footer-achievements a{ 
+    text-decoration: none;
+    color: white;
+    background-color: rgb(35, 31, 32);
+  }
+
+@media (min-width: 350px){
+    .footer {
+        text-align: left;
+        padding-top: 2em;
+        padding-bottom: 2em;
+        margin-top: 500px;
+        margin-bottom: 0;
+        width: 100%;
+        color: white;
+        background-color: rgb(35, 31, 32);
+      }
+      body {
+        margin:0;
+        color: white;
+        color: rgb(35, 31, 32);
+    }
+    nav#main-nav ul li .elisabeth {
+        display: inline-block;
+        color:white;
+        padding: .2em 0em;
+        margin:0 30px;
+        text-decoration: none;
+        transition: all .5s;
+        font-family: "spectral", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 12px;
+    }
+    nav#main-nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 1em 0em 1em 0em;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        background-color: #282522;
+        
+    }
+    nav#main-nav ul li a {
+        display: inline-block;
+        color:white;
+        padding: .2em 0em;
+        margin: 0 10px;
+        text-decoration: none;
+        transition: all .5s;
+        font-family: "spectral", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 12px;
+    }
+    .floated-image-one {
+        float: none;
+        width:85%;
+        padding-right: 3em;
+        padding-bottom: 2em;
+        margin:0;
+    }
+    .personal-life {
+        margin:15%;
+        margin-top: 8%;
+        padding:0;
+        margin-bottom:0;
+    }
+    
+    .floated-image-two {
+        float: none;
+        width:85%;
+        padding-right: 3em;
+        padding-bottom: 3em;
+        margin:0;
+    }
+    .the-five-stages {
+        margin: 15%;
+        margin-top: 8%;
+        padding:0;
+        margin-bottom:0;
+    }
+    .the-five-stages p {
+        padding:0;
+        
+    }
+    .the-five-stages-paragraph-one {
+        margin: 15%;
+        padding:0;
+        float: none;
+        width: 60%;
+    }
+    .the-five-stages-paragraph-two {
+        margin: 15%;
+        padding:0;
+        float: none;
+        width: 60%;
+        
+    }
+    .achievements {
+        margin: 15%;
+        margin-top: 8%;
+        padding:0;
+        margin-bottom:0;
+    }
+    .unfloated{
+        padding-top:2rem;
+        width:90%;
+    }
+    details {
+        padding: 1em;
+    }
+    summary {
+        padding: 20px;
+        background-color: #eeeeee;
+        border: none;
+        cursor: pointer;
+        font-family: "spectral", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 20px;
+      }
+      
+    details > p {
+        background-color: #eeeeee;
+        padding: 40px;
+        margin:0;
+        padding-top: 0px;
+        padding-bottom: 10px;
+        
+      }
+    .list {
+        padding-top: 4rem;
+        margin-left:15%;
+        margin-right:15%;
+      }
+    .floated-image-three {
+        float: none;
+        width:90%;
+        padding-left: 0em;
+        padding-bottom: 2em;
+        margin:0; 
+      }
+    .personal-life-paragraph-one{
+        margin: 15%;
+        padding:0;
+        float: none;
+        width: 60%;
+      }
+    .personal-life-paragraph-two {
+        margin:15%;
+        width:60%;
+        float:none;
+      }
+    
+      }
+@media (min-width: 500px){
+    .footer {
+        text-align: left;
+        padding-top: 2em;
+        padding-bottom: 2em;
+        margin-top: 500px;
+        margin-bottom: 0;
+        width: 100%;
+        color: white;
+        background-color: rgb(35, 31, 32);
+      }
+      nav#main-nav ul li .elisabeth {
+        display: inline-block;
+        color:white;
+        padding: .2em 0em;
+        margin:0 30px;
+        text-decoration: none;
+        transition: all .5s;
+        font-family: "spectral", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 13px;
+    }
+    nav#main-nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 1em 0em 1em 0em;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        background-color: #282522;
+        
+    }
+    nav#main-nav ul li a {
+        display: inline-block;
+        color:white;
+        padding: .2em 0em;
+        margin: 0 10px;
+        text-decoration: none;
+        transition: all .5s;
+        font-family: "spectral", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 13px;
+    }
+    .floated-image-one {
+        float: none;
+        width:60%;
+        padding-right: 3em;
+        padding-bottom: 2em;
+        margin:0;
+    }
+    .personal-life {
+        margin:15%;
+        margin-top: 8%;
+        padding:0;
+        margin-bottom:0;
+    }
+    
+    .floated-image-two {
+        float: none;
+        width:80%;
+        padding-right: 3em;
+        padding-bottom: 3em;
+        margin:0;
+    }
+    .the-five-stages {
+        margin: 15%;
+        margin-top: 8%;
+        padding:0;
+        margin-bottom:0;
+    }
+    .the-five-stages p {
+        padding:0;
+        
+    }
+    .the-five-stages-paragraph-one {
+        margin: 15%;
+        padding:0;
+        float: none;
+        width: 60%;
+    }
+    .the-five-stages-paragraph-two {
+        margin: 15%;
+        padding:0;
+        float: none;
+        width: 60%;
+        
+    }
+    .achievements {
+        margin: 15%;
+        margin-top: 8%;
+        padding:0;
+        margin-bottom:0;
+    }
+    .unfloated{
+        padding-top:2rem;
+        width:60%;
+    }
+    details {
+        padding: 1em;
+    }
+    summary {
+        padding: 20px;
+        background-color: #eeeeee;
+        border: none;
+        cursor: pointer;
+        font-family: "spectral", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 20px;
+      }
+      
+    details > p {
+        background-color: #eeeeee;
+        padding: 40px;
+        margin:0;
+        padding-top: 0px;
+        padding-bottom: 10px;
+        
+      }
+    .list {
+        padding-top: 4rem;
+        margin-left:15%;
+        margin-right:15%;
+      }
+    .floated-image-three {
+        float: none;
+        width:80%;
+        padding-left: 0em;
+        padding-bottom: 2em;
+        margin:0; 
+      }
+    .personal-life-paragraph-one{
+        margin: 15%;
+        padding:0;
+        float: none;
+        width: 60%;
+      }
+    .personal-life-paragraph-two {
+        margin:15%;
+        width:60%;
+        float:none;
+      }
+    
+}
+@media (min-width: 900px){
+    nav#main-nav ul li .elisabeth {
+        display: inline-block;
+        color:white;
+        padding: .2em 0em;
+        margin:0 30px;
+        text-decoration: none;
+        transition: all .5s;
+        font-family: "spectral", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 30px;
+    }
+    nav#main-nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 3em 0em 3em 0em;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        background-color: #282522;
+        
+    }
+    nav#main-nav ul li a {
+        display: inline-block;
+        color:white;
+        padding: .2em 2em;
+        margin: 0 10px;
+        text-decoration: none;
+        transition: all .5s;
+        font-family: "spectral", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 30px;
+    }
+    
+    nav#main-nav ul li a:hover {
+        color: #972f3e;
+    }
+    nav#main-nav ul li a.selected {
+        color: #972f3e;
+    }
+    .floated-image-one {
+        float: left;
+        width:40%;
+        padding-right: 3em;
+        padding-bottom: 0;
+        margin:0;
+    }
+    .personal-life {
+        margin:15%;
+        margin-top: 8%;
+        padding:0;
+        margin-bottom:0;
+    }
+    
+    .floated-image-two {
+        float: right;
+        width:40%;
+        padding-right: 3em;
+        padding-bottom: 3em;
+        margin:0;
+    }
+    .the-five-stages {
+        margin: 15%;
+        margin-top: 8%;
+        padding:0;
+        margin-bottom:0;
+    }
+    .the-five-stages-paragraph-one {
+        margin: 15%;
+        padding:0;
+        float: left;
+        width: 30%;
+        margin-right:0;
+        margin-top: 0;
+        margin-bottom:0;
+    }
+    .the-five-stages-paragraph-two {
+        margin: 15%;
+        padding:0;
+        float:right;
+        width: 30%;
+        margin-left:0;
+        margin-top: 0;
+    }
+    .achievements {
+        margin: 15%;
+        margin-top: 8%;
+        padding:0;
+        margin-bottom:0;
+    }
+    .unfloated{
+        padding-top:2rem;
+        width:60%;
+    }
+    details {
+        padding: 1em;
+    }
+    summary {
+        padding: 20px;
+        background-color: #eeeeee;
+        border: none;
+        cursor: pointer;
+        font-family: "spectral", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 20px;
+      }
+      
+      details > p {
+        background-color: #eeeeee;
+        padding: 40px;
+        margin:0;
+        padding-top: 0px;
+        padding-bottom: 10px;
+        
+      }
+      .list {
+        padding-top: 4rem;
+        margin-left:15%;
+        margin-right:15%;
+      }
+      .floated-image-three {
+        float: right;
+        width:50%;
+        padding-left: 3em;
+        padding-bottom: 0;
+        margin:0; 
+      }
+      .personal-life-paragraph-one{
+        margin: 15%;
+        padding:0;
+        float: left;
+        width: 30%;
+        margin-right:0;
+        margin-top: 0;
+        margin-bottom:0;
+      }
+      .personal-life-paragraph-two {
+        margin:15%;
+        width:30%;
+        float:right;
+        margin-left:0;
+        margin-top:0;
+      }
+      .footer {
+        text-align: left;
+        padding-top: 2em;
+        padding-bottom: 2em;
+        margin-top: 1500px;
+        margin-bottom: 0;
+        width: 100%;
+        color: white;
+        background-color: rgb(35, 31, 32);
+      }
+      .footer h3 {
+        margin: 0% 5% 0% 5% ;
+      }
+      .footer-achievements {
+        text-align: left;
+        padding-top: 2em;
+        padding-bottom: 2em;
+        margin-top: 80px;
+        margin-bottom: 0;
+        width: 100%;
+        color: white;
+        background-color: rgb(35, 31, 32);
+        }
+        .footer-achievements h3 {
+            margin: 0% 5% 0% 5% ;
+          }
+    
+}
